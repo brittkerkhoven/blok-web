@@ -1,0 +1,71 @@
+header {
+    background-color: #191F3A;
+    font-family: arial;
+    overflow: hidden;
+}
+
+nav a {
+    float: right;
+    color: white;
+    padding-left: 5px;
+}
+
+nav ul {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    border: 1px solid;
+    background-color: #31415F;
+}
+
+nav ul a {
+    color: white;
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+header img {
+    display: inline-block;
+    float: left;
+}
+
+nav button {
+    float: right;
+}
+
+li a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.header input[type=text] {
+    border: 1px solid black;
+    float: right;
+}
+
+.deeleen button {
+    float: right;
+}
+
+h2 {
+    text-align: center;
+}
+
+button:hover {
+    color: white;
+    background-color: gray;
+    font-size: 12px;
+    border-radius: 5px;
+}
